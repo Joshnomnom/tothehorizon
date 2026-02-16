@@ -1,7 +1,9 @@
+import GameCanvas from '@/components/GameCanvas'
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
+    <main className="w-screen h-screen overflow-hidden">
+      <GameCanvas />
     </main>
-  );
+  )
 }
